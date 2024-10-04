@@ -141,35 +141,27 @@ const ResumeButton = styled.a`
   text-align: center;
   padding: 16px 0;
 
-  background: hsla(330, 100%, 50%, 1);
-  background: linear-gradient(
-    225deg,
-    hsla(330, 100%, 50%, 1) 0%,
-    hsla(0, 100%, 50%, 1) 100%
-  );
-  background: -moz-linear-gradient(
-    225deg,
-    hsla(330, 100%, 50%, 1) 0%,
-    hsla(0, 100%, 50%, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    225deg,
-    hsla(330, 100%, 50%, 1) 0%,
-    hsla(0, 100%, 50%, 1) 100%
-  );
-  box-shadow: 20px 20px 60px #1f2634, -20px -20px 60px #1f2634;
-  border-radius: 50px;
+  /* Gradient background similar to the image */
+  background: linear-gradient(90deg, #ff3a3a 0%, #ff5bff 100%);
+
+  /* Rounded edges */
+  border-radius: 30px;
+
+  /* Font and color */
   font-weight: 600;
   font-size: 20px;
   color: white;
 
+  /* Shadow for a soft effect */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+
+  /* Hover effect */
   &:hover {
     transform: scale(1.05);
-    transition: all 0.4s ease-in-out;
-    box-shadow: 20px 20px 60px #1f2634;
-    filter: brightness(1);
+    transition: all 0.3s ease;
   }
 
+  /* Mobile responsiveness */
   @media (max-width: 640px) {
     padding: 12px 0;
     font-size: 18px;
