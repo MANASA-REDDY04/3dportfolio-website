@@ -142,8 +142,12 @@ const ResumeButton = styled.a`
   padding: 16px 0;
 
   /* Lighter gradient background */
-  background: linear-gradient(90deg, #ff7a7a 0%, #ff99ff 100%);
-  
+  background: rgb(222, 97, 18);
+  background: linear-gradient(
+    90deg,
+    rgba(222, 97, 18, 0.756827731092437) 0%,
+    rgba(219, 67, 132, 0.5943627450980392) 84%
+  );
   /* Rounded edges */
   border-radius: 30px;
 
@@ -167,7 +171,6 @@ const ResumeButton = styled.a`
     font-size: 18px;
   }
 `;
-
 
 const Img = styled.img`
   border-radius: 50%;
