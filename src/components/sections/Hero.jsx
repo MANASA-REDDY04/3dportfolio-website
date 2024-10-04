@@ -142,11 +142,7 @@ const ResumeButton = styled.a`
   padding: 16px 0;
 
   /* Lighter gradient background */
-  background: linear-gradient(
-    90deg,
-    rgb(222 91 18 / 92%) 0%,
-    rgb(219 67 132 / 90%) 84%
-  );
+  background: linear-gradient(90deg, rgb(227 80 32 / 97%) 0%, rgb(249 122 177 / 72%) 84%);
   /* Rounded edges */
   border-radius: 30px;
 
