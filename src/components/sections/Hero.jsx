@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Bio } from "../../data/constants";
 import Typewriter from "typewriter-effect";
-import HeroImg from "../../images/HeroImg.png";
+import HeroImg from "../../images/HeroImg.jpg";
 import HeroBgAnimation from "../HeroBgAnimation";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
@@ -142,11 +142,10 @@ const ResumeButton = styled.a`
   padding: 16px 0;
 
   /* Lighter gradient background */
-  background: rgb(222, 97, 18);
   background: linear-gradient(
     90deg,
-    rgba(222, 97, 18, 0.756827731092437) 0%,
-    rgba(219, 67, 132, 0.5943627450980392) 84%
+    rgb(222 91 18 / 92%) 0%,
+    rgb(219 67 132 / 90%) 84%
   );
   /* Rounded edges */
   border-radius: 30px;
