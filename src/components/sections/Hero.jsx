@@ -141,9 +141,9 @@ const ResumeButton = styled.a`
   text-align: center;
   padding: 16px 0;
 
-  /* Gradient background similar to the image */
-  background: linear-gradient(90deg, #ff3a3a 0%, #ff5bff 100%);
-
+  /* Lighter gradient background */
+  background: linear-gradient(90deg, #ff7a7a 0%, #ff99ff 100%);
+  
   /* Rounded edges */
   border-radius: 30px;
 
@@ -152,8 +152,8 @@ const ResumeButton = styled.a`
   font-size: 20px;
   color: white;
 
-  /* Shadow for a soft effect */
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  /* Lighter shadow for a softer look */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
 
   /* Hover effect */
   &:hover {
@@ -167,6 +167,7 @@ const ResumeButton = styled.a`
     font-size: 18px;
   }
 `;
+
 
 const Img = styled.img`
   border-radius: 50%;
